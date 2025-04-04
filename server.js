@@ -1,9 +1,15 @@
 const express = require('express')
+<<<<<<< HEAD
 const app = express()
 const cors = require('cors')
 const PORT = 5000
 
 app.use(cors())
+=======
+
+const app = express()
+const PORT = 5000
+>>>>>>> e7087d88d2e75fc0135b25de75416e291926633d
 
 const data = {
     'python' : {
@@ -34,6 +40,17 @@ const data = {
         'First appeared' : 'unknown',
         'Developer' : 'unknown'
     }
+<<<<<<< HEAD
+=======
+    
+// Classic Visual Basic
+// MATLAB
+// Swift
+// Delphi/Object Pascal
+// Ruby
+// Perl
+// Objective-C
+>>>>>>> e7087d88d2e75fc0135b25de75416e291926633d
 }
 
 app.get('/', (req,res) => {

@@ -13,7 +13,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+<<<<<<< HEAD
     "cors": "^2.8.5",
+=======
+>>>>>>> e7087d88d2e75fc0135b25de75416e291926633d
     "express": "^5.1.0"
   }
 }
